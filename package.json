@@ -1,0 +1,33 @@
+{
+  "name": "stream-http-header-parser",
+  "version": "0.0.1",
+  "description": "Parse HTTP header in TCP stream",
+  "main": "dist/index.js",
+  "repository": {
+    "url": "https://github.com/marszall87/stream-http-header-parser",
+    "type": "git"
+  },
+  "scripts": {
+    "build": "babel src -d dist",
+    "prepublish": "npm run build",
+    "test": "ava"
+  },
+  "author": "Michał Nykiel <marszall87@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.18.0",
+    "http-headers": "^3.0.1",
+    "through2": "^2.0.1",
+    "xo": "^0.17.0"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true,
+    "space": true
+  },
+  "ava": {
+    "require": ["babel-register"]
+  }
+}

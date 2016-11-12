@@ -7,10 +7,13 @@
     "url": "https://github.com/marszall87/stream-http-header-parser",
     "type": "git"
   },
+  "engines": {
+    "node": ">=6"
+  },
   "scripts": {
     "build": "babel src -d dist",
     "prepublish": "npm run build",
-    "test": "ava"
+    "test": "xo && ava"
   },
   "author": "Michał Nykiel <marszall87@gmail.com>",
   "license": "MIT",

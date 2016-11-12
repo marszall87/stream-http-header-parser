@@ -1,4 +1,4 @@
-# stream-http-header-parser
+# stream-http-header-parser [![Build Status](https://travis-ci.org/marszall87/stream-http-header-parser.svg?branch=master)](https://travis-ci.org/marszall87/stream-http-header-parser)
 
 > Parse HTTP header in TCP stream
 

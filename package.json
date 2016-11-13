@@ -1,6 +1,6 @@
 {
   "name": "stream-http-header-parser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Parse HTTP header in TCP stream",
   "main": "dist/index.js",
   "repository": {
